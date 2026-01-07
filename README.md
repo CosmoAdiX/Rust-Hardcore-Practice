@@ -2,8 +2,7 @@
 
 # 🦀 Rust Speed Run
 
-**A comprehensive Rust learning project covering core concepts with colorful terminal output that i was learning in late 2025
-and now continuing with the advanced concepts of rust covering  topics like **
+** A comprehensive Rust learning project covering core concepts with colorful terminal output that i was learning in late 2025 and now continuing with the advanced concepts of rust covering  topics like **
 
 ![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
