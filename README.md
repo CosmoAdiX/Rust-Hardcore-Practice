@@ -2,11 +2,10 @@
 
 # 🦀 Rust Speed Run
 
-**A comprehensive Rust learning project covering core concepts with colorful terminal output that i was learning in late 2025 and now continuing with the advanced concepts of rust covering  topics like**
+**A comprehensive Rust learning project covering core concepts with colorful terminal output that i was learning in late 2025 and now continuing with the advanced concepts of rust covering  topics like Closure, Macros, Hashmaps, Smart Pointers**
 
 ![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
-![Version](https://img.shields.io/badge/version-0.1.0-green.svg)
 ![Status](https://img.shields.io/badge/status-learning-yellow.svg)
 
 [Features](#-features) • [Installation](#-installation) • [Usage](#-usage) • [Topics Covered](#-topics-covered)
@@ -258,9 +257,9 @@ This project is open source and available under the [MIT License](LICENSE).
 
 **Made with ❤️ and Rust 🦀**
 
-⭐ Star this repo if you found it helpful!
+## ⭐ Star it if your like or just freaking cope somewhere else...
 
-**Happy Learning! 🚀**
+**All the best learning `Rust` and keeping your brain together Lmao... 🚀**
 
 </div>
 
