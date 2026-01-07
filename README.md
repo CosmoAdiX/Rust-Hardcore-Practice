@@ -238,10 +238,10 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ## 👤 Author
 
-**Your Name**
+**Adi**
 
-- Learning Rust one concept at a time 🦀
-- Building projects to understand the language better
+- Mastering Rust cause whynot, its goated 🦀
+- Building opensource project to kill **software economy** 😊 ...
 
 ---
 
