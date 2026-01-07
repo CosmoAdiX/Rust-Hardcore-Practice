@@ -2,7 +2,8 @@
 
 # 🦀 Rust Speed Run
 
-**A comprehensive Rust learning project covering core concepts with colorful terminal output**
+**A comprehensive Rust learning project covering core concepts with colorful terminal output that i was learning in late 2025
+and now continuing with the advanced concepts of rust covering  topics like **
 
 ![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
@@ -57,29 +58,16 @@ This project is a **Rust learning journey** that demonstrates fundamental Rust c
 ## 📚 Topics Covered
 
 ### 1. Expressions & Statements
-- Understanding the difference between expressions and statements
-- Return values and implicit returns
 
 ### 2. Loops
-- `loop` - Infinite loops with break
-- `while` - Conditional loops
-- `for` - Iterating over collections and ranges
 
 ### 3. Ownership
-- Ownership rules in Rust
-- Move semantics
-- Stack vs Heap
 
 ### 4. References & Borrowing
-- Immutable references (`&`)
-- Mutable references (`&mut`)
-- Dereferencing
 
 ### 5. Slices
-- String slices
-- Array slices
-- Working with byte arrays
 
+### ~ Continuing
 ---
 
 ## 🛠️ Installation
@@ -125,6 +113,7 @@ This will execute all modules and demonstrate:
 - Ownership concepts
 - References and borrowing
 - String and array slicing
+- *~ Note that if anything you want to run from the modules you just uncomment it*
 
 ### Running Specific Modules
 
