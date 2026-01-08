@@ -8,6 +8,7 @@ mod ownership;
 mod take_ownership;
 mod referencing_dereferencing;
 mod slice_type;
+mod structures;
 
 fn main() {
     let eva: i32 = 45 + 56 + 67;
@@ -57,6 +58,10 @@ fn main() {
 
     println!("\n\n ================================ Slicing type in Rust ================================ ");
     slice_type::slice_text();
+    
+    println!("\n\n ================================ Structures in Rust ================================");
+    structures::structures();
+
     
 
 }
