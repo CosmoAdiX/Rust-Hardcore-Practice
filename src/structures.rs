@@ -1,8 +1,8 @@
 use colored::*;
 
 struct Rectangle {
-    length: u8,
-    width: u8,
+    length: u16,
+    width: u16,
 }
 
 pub fn structures() {
@@ -16,10 +16,19 @@ pub fn structures() {
 
     let result_1 = rect_area(&new_rect); // here as you can see that the ownership is being transferred from the new_rect to rec and the rec to result_1 variable
     println!("|-->  The area of the rectangle is {}.", result_1.to_string().green());
+
+    let rect2 = Rectangle {
+        length: 99,
+        width: 99,
+    };
+
+    let result2 = rect_area(&rect2);
+
+    println!("The area of the rect2 is: {}.", result2);
     
 }
 
-fn rect_area(rec: &Rectangle) -> u8 {
+fn rect_area(rec: &Rectangle) -> u16 {
      return rec.length * rec.width;
 }
 
