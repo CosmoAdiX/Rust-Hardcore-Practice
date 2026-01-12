@@ -9,6 +9,7 @@ mod take_ownership;
 mod referencing_dereferencing;
 mod slice_type;
 mod structures;
+mod impl_and_associative;
 
 fn main() {
     let eva: i32 = 45 + 56 + 67;
@@ -62,6 +63,8 @@ fn main() {
     println!("\n\n ================================ Structures in Rust ================================");
     structures::structures();
 
+    println!("\n\n ================================ Impl And Associative Functions ================================");
+    impl_and_associative::impl_function();
     
 
 }
