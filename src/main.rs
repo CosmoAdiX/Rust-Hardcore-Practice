@@ -10,6 +10,8 @@ mod referencing_dereferencing;
 mod slice_type;
 mod structures;
 mod impl_and_associative;
+mod enums;
+
 
 fn main() {
     let eva: i32 = 45 + 56 + 67;
@@ -65,6 +67,10 @@ fn main() {
 
     println!("\n\n ================================ Impl And Associative Functions ================================");
     impl_and_associative::impl_function();
+
+
+    println!("\n\n ================================ Enums in Rust language ================================");
+    enum::enums();
     
 
 }
