@@ -70,7 +70,7 @@ fn main() {
 
 
     println!("\n\n ================================ Enums in Rust language ================================");
-    enum::enums();
+    enums::enums();
     
 
 }
