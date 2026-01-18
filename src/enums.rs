@@ -17,6 +17,13 @@ enum Shape {
     Circle(f64),
 }
 
+// Optional Enums
+#[derive(Debug)]
+enum OptionalValue<T> {
+    Some(T),
+    None,
+}
+
 impl Shape {
     fn new_circle(radius: f64) -> Self {
         /* Remember that when you use the structures we used something like this
@@ -94,5 +101,19 @@ pub fn enums() {
 
     square_1.area();
     circle_2.area();
+
+    let user_id_1 = 1;
+    let user_id_2 = 22;
     
+
+    get_user_phonenumber(user_id_1);
+    get_user_phonenumber(user_id_2);
 }   
+
+fn get_user_phonenumber(user_id: i32) {
+    if user_id == 1 {
+        println!("shut the fuck up bro...!");
+    } else {
+        println!("stfu");
+    }
+}
