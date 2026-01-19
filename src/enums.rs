@@ -1,5 +1,5 @@
 use std::{any::Any, f64::consts::PI};
-
+use std::fmt::Display;
 
 
 #[derive(Debug)]
@@ -23,6 +23,12 @@ enum OptionalValue<T> {
     Some(T),
     None,
 }
+
+// RESULT ENUM
+// #[derive(Debug)]
+// enum ResultEnum
+
+
 
 impl Shape {
     fn new_circle(radius: f64) -> Self {
@@ -106,14 +112,40 @@ pub fn enums() {
     let user_id_2 = 22;
     
 
-    get_user_phonenumber(user_id_1);
-    get_user_phonenumber(user_id_2);
+    let u0 = get_user_phonenumber(user_id_1);
+    let u1 = get_user_phonenumber(user_id_2);
+
+    println!("|-->    Bruh it's: {:?}", u0);
+    println!("|-->    Bruh it's: {:?}", u1);
+
+    let divide_1 = divide(12, 12);
+    println!("|-->    The division is: {:?}", divide_1);
+
+    // So here this is the generic type of enum, where you basically return any type of value using <T: Display>.
+    let string_1 = String::from("Bruh wassup...");
+    print_stupid_data(string_1);
+
 }   
 
-fn get_user_phonenumber(user_id: i32) {
+fn get_user_phonenumber(user_id: i32) -> Option<i32> {
+    let mob_num = 9445;
     if user_id == 1 {
-        println!("shut the fuck up bro...!");
+        return Some(mob_num);
     } else {
-        println!("stfu");
+        // println!("|-->    stfu, you're not the sigma..!!!");
+        return None;
     }
+}
+
+fn divide(x: i32, y: i32) -> Result<i32,String> {
+    if y == 0 {
+        return Err("Y is zero".to_owned());
+    } else {
+        return Ok(x/y);
+    }
+}
+
+// #[derive(Debug)]
+fn print_stupid_data<T: Display>(data: T) {
+    println!("|-->    Bruh the data is: {}", data);
 }
