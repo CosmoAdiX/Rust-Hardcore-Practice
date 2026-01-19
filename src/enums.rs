@@ -125,6 +125,15 @@ pub fn enums() {
     let string_1 = String::from("Bruh wassup...");
     print_stupid_data(string_1);
 
+    // To check even more you can put many other kinds of data types, like:-->
+    let x1 = 22_f64/7_f64;
+    let x2 = true;
+    let x3 = "hello nigga".to_owned();
+
+    print_stupid_data(x1);
+    print_stupid_data(x2);
+    print_stupid_data(x3);
+
 }   
 
 fn get_user_phonenumber(user_id: i32) -> Option<i32> {
@@ -147,5 +156,5 @@ fn divide(x: i32, y: i32) -> Result<i32,String> {
 
 // #[derive(Debug)]
 fn print_stupid_data<T: Display>(data: T) {
-    println!("|-->    Bruh the data is: {}", data);
+    println!("|-->    Bruh the data is: {}.", data);
 }

@@ -11,7 +11,7 @@ mod slice_type;
 mod structures;
 mod impl_and_associative;
 mod enums;
-
+mod traits;
 
 fn main() {
     let eva: i32 = 45 + 56 + 67;
@@ -71,6 +71,9 @@ fn main() {
 
     println!("\n\n ================================ Enums in Rust language ================================");
     enums::enums();
+
+    println!("\n\n ================================ Traits ================================");
+    traits::traits();    
     
 
 }

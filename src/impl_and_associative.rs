@@ -27,6 +27,11 @@ pub fn impl_function() {
 
     println!("\n |-->   This is an impl function and this is how we use it...");
 
+    let zero_triangle = Triangle {base: 32, height: 32}; // This is the long method or you can say primitve method and you would have to specify again and again which will consume a lot of time, so thats why we use implement.
+
+    println!(" |-->    So the zeroth triangle is: {}", zero_triangle.base);
+
+
 
     // Now we can use our initialization of the triangle from anywhere by Triangle::new() and saving it in the variable and all.
     let mut new_tria = Triangle::new(27,37);
