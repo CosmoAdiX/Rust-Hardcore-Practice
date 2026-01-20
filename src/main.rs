@@ -12,6 +12,7 @@ mod structures;
 mod impl_and_associative;
 mod enums;
 mod traits;
+mod arrays_and_vectors;
 
 fn main() {
     let eva: i32 = 45 + 56 + 67;
@@ -74,6 +75,10 @@ fn main() {
 
     println!("\n\n ================================ Traits ================================");
     traits::traits();    
+
+    println!("\n\n ================================ Arrays and Vectors ================================");
+    arrays_and_vectors::arrays();
+    arrays_and_vectors::vectors();
     
 
 }
