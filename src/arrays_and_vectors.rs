@@ -56,4 +56,12 @@ pub fn vectors() {
     _v3.insert(0, 69);
     println!("||-->    This is the array now after inserting the item in the first place in _v3: {:?}.", _v3);
 
+    // to print individual elements present in the list we use for loop to iterate through it.
+    let mut count = 1;
+    for item in &_v3 {
+        println!("{}. {}.", count, item); // So this is how you iterate through the list using for loop and print each element present in the list/array.
+        count += 1;
+    }
+    
+
 }
