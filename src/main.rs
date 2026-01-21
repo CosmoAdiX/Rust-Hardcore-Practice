@@ -13,7 +13,9 @@ mod impl_and_associative;
 mod enums;
 mod traits;
 mod arrays_and_vectors;
-mod iterators;
+mod iterators; 
+mod macros;
+mod error_handling;
 
 fn main() {
     let eva: i32 = 45 + 56 + 67;
@@ -83,6 +85,12 @@ fn main() {
 
     println!("\n\n ================================ Iterators ================================");
     iterators::iterators();
+
+    println!("\n\n ================================ Macros ================================");
+    macros::macros();
+
+    println!("\n\n ================================ Error Handling ================================");
+    error_handling::error_handling();
     
 
 }

@@ -25,7 +25,9 @@ pub fn iterators() {
     assert_eq!(None, iter.next());
     assert_eq!(None, iter.next());
 
-    let vec1: Vec<i32> = vec![1,2,3];
+    let arr1 = [1,2,3,4]; // One more thing is that arrays are stored in stack.
+
+    let vec1: Vec<i32> = vec![1,2,3]; // And the vectors are stored in heap memory.
 
     for item in &vec1 {
         // vector ownership is not transferred.
@@ -36,8 +38,9 @@ pub fn iterators() {
     println!("\n||-->    Transfering the ownership\n");
 
     // vector ownership is being transferred.
-    // for item in vec1.into_iter() {
-    //     println!("|-> {}", item);
-    // }
+    for item in vec1.into_iter() {
+        println!("|-> {}", item);
+    }
+
 
 }
