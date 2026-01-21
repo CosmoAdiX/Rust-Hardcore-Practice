@@ -16,6 +16,7 @@ mod arrays_and_vectors;
 mod iterators; 
 mod macros;
 mod error_handling;
+mod closures;
 
 fn main() {
     let eva: i32 = 45 + 56 + 67;
@@ -91,6 +92,9 @@ fn main() {
 
     println!("\n\n ================================ Error Handling ================================");
     error_handling::error_handling();
+
+    println!("\n\n ================================ Closures ================================");
+    closures::closures();
     
 
 }
