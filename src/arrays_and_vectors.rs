@@ -35,11 +35,11 @@ pub fn vectors() {
 
     let mut _v3 = vec![100,101,111];
 
-    let opt = _v3.get(10);
+    let opt = _v3.get(1);
 
     match opt {
-        Some(value) => println!("Value is : {}", value),
-        None => println!("No value"),
+        Some(value) => println!("||-->    Value is : {}", value),
+        None => println!("||-->    No value"),
     }
 
     _v3.push(23);
@@ -59,7 +59,7 @@ pub fn vectors() {
     // to print individual elements present in the list we use for loop to iterate through it.
     let mut count = 1;
     for item in &_v3 {
-        println!("{}. {}.", count, item); // So this is how you iterate through the list using for loop and print each element present in the list/array.
+        println!("-->  {}. {}.", count, item); // So this is how you iterate through the list using for loop and print each element present in the list/array.
         count += 1;
     }
     

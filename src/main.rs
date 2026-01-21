@@ -13,6 +13,7 @@ mod impl_and_associative;
 mod enums;
 mod traits;
 mod arrays_and_vectors;
+mod iterators;
 
 fn main() {
     let eva: i32 = 45 + 56 + 67;
@@ -79,6 +80,9 @@ fn main() {
     println!("\n\n ================================ Arrays and Vectors ================================");
     arrays_and_vectors::arrays();
     arrays_and_vectors::vectors();
+
+    println!("\n\n ================================ Iterators ================================");
+    iterators::iterators();
     
 
 }
