@@ -21,7 +21,18 @@ pub fn closures() {
     let str_1 = String::from("wht the phuck amigo?");
     let consume_and_return = || str_1;
     // println!("|->  {}", str_1);
-    let y = consume_and_return();
+    let y = consume_and_return(); // the value of the str_1 gets transfer orm closure to the variable y.
     println!("|->  So the string is, \"{}\".", y);
+
+    let z = y;
+    println!("|->  So now the ownership of the string str_1 gets transferred to the z from y, \"{}\".", z);
+
+    println!("\n|->  Lets now implement it wiht vectors using closures in process");
+
+    let vector_1 = vec![22,24,33,34,45,46];
+
+    let even_num: Vec<i32> = vector_1.into_iter().filter(|x| x % 2 == 0).collect();
+
+    println!("|->  So the new array is, {:?}", even_num);
     
 }
