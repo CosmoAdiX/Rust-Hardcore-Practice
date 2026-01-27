@@ -35,4 +35,11 @@ pub fn closures() {
 
     println!("|->  So the new array is, {:?}", even_num);
     
+    let vec2 = vec![1,2,3,4];
+
+    let double_vec: Vec<i32> = vec2.iter().map(|x| x * 2).collect();
+    println!("|->  {:?}", double_vec);
+
+    let even_vec: Vec<&i32> = vec2.iter().filter(|x| *x % 2 == 0).collect();
+    println!("|->  {:?}", even_vec);
 }
